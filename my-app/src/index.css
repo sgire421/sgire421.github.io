@@ -1,0 +1,43 @@
+/*INSTRUCTIONS: Copy and paste me into the index.css file that is located in the "src" folder stored in the folder that holds all of your React.js files */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+
+div {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-link,
+button {
+  background-color: #0a90b2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.login-link:hover,
+button:hover {
+  background-color: #48bddb;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+}
+
+footer {
+  bottom: 0;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
